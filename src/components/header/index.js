@@ -7,12 +7,12 @@ import { GrTwitter } from "react-icons/gr";
 
 const Header = () => {
   return (
-    <header className="bg-black py-4	">
+    <header className="bg-black py-4	border-b-2 border-yellowborder">
       <div className="max-w-container mx-auto">
         <div className="flex">
           <div className="w-2/4 flex">
             <p
-              className="font-pop text-xs font-normal relative pl-6 text-white after:absolute after:top-[-3px] after:right-[-28px] after:w-0.5
+              className="font-pop text-xs font-normal relative pl-6 text-white after:absolute after:top-[0] after:right-[-28px] after:w-0.5
             after:h-full after:content-[''] after:bg-yellowborder"
             >
               <AiOutlineMail className="absolute left-0 top-0	text-lg" />
