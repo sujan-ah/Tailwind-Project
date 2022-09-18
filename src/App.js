@@ -4,6 +4,7 @@ import Header from "./components/header";
 import Navbar from "./components/navbar";
 import Banner from "./components/banner";
 import { Supplier } from "./components/supplier";
+import Service from "./components/service";
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <Navbar />
       <Banner />
       <Supplier />
+      <Service />
     </>
   );
 }
