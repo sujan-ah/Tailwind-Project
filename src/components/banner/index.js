@@ -10,7 +10,7 @@ const Banner = () => {
           </h1>
           <a
             href="#"
-            className="bg-primary font-pop text-base font-semibold text-white border py-3.5 px-3.5 hover:bg-transparent ease-linear	duration-300"
+            className="inline-block bg-primary font-pop text-base font-semibold text-white border py-3.5 px-3.5 hover:bg-transparent ease-linear	duration-300"
           >
             LEARN MORE
           </a>
