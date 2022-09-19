@@ -5,8 +5,8 @@ const Blog = () => {
   return (
     <section>
       <div
-        className="h-124 pt-[136px] pb-[136px]"
-        style={{ background: "url(images/backgroundcompany.png) no-repeat" }}
+        className="h-auto	 pt-[110px] pb-[75px]"
+        style={{ background: "url(images/backgroundcompany.png)" }}
       >
         <div className="max-w-container mx-auto">
           <div className="flex gap-x-14">
@@ -65,7 +65,7 @@ const Blog = () => {
             </div>
           </div>
 
-          <p className="flex justify-end font-pop font-bold text-base text-[#000000] mt-[28px]">
+          <p className="flex justify-end font-pop font-bold text-base text-[#000000] mt-[28px] ">
             MORE FROM THE BLOG
             <FaAngleRight className="text-[20px] mt-[1px]" />
           </p>

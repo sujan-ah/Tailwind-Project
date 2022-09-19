@@ -7,6 +7,8 @@ import { Supplier } from "./components/supplier";
 import Service from "./components/service";
 import Company from "./components/company";
 import Blog from "./components/bolg";
+import Map from "./components/map";
+import Footer from "./components/footer";
 
 function App() {
   return (
@@ -18,6 +20,8 @@ function App() {
       <Service />
       <Company />
       <Blog />
+      <Map />
+      <Footer />
     </>
   );
 }

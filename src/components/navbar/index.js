@@ -2,7 +2,7 @@ import React from "react";
 
 const Navbar = () => {
   return (
-    <nav className="bg-primary py-7	">
+    <nav className="bg-primary py-7	border-t-2 border-black">
       <div className="max-w-container mx-auto flex">
         <div className="w-1/5">
           <picture>
@@ -29,7 +29,7 @@ const Navbar = () => {
           </ul>
           <a
             href="#"
-            className="font-pop text-base	font-semibold text-white border py-3.5	px-3.5 mx-16"
+            className="font-pop text-base	font-semibold text-white border py-3.5	px-3.5 mx-16 mr-0"
           >
             CONTACT
           </a>
