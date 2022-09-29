@@ -8,20 +8,6 @@ const Navbar = () => {
     setOpen(!open);
   };
 
-  // useEffect(() => {
-  //   if (window.innerWidth >= 768) {
-  //     setOpen(true);
-  //   }
-  //   function screenResize(e) {
-  //     if (window.innerWidth >= 768) {
-  //       setOpen(true);
-  //     } else {
-  //       setOpen(false);
-  //     }
-  //   }
-  //   window.addEventListener("resize", screenResize);
-  // }, []);
-
   useEffect(() => {
     if (window.innerWidth >= 768) {
       setOpen(true);
