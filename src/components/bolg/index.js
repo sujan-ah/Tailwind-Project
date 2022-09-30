@@ -18,7 +18,11 @@ const Blog = () => {
               }}
             >
               <div className="w-full h-full bg-darklight sml:py-16 md:!py-0">
-                <h4 className="font-pop font-bold text-[24px] text-white md:w-[320px] px-[40px] pt-[75px] group-hover:text-primary ">
+                <h4
+                  className="font-pop font-bold 
+                text-[24px] md:!text-[24px] lap:text-[36px]
+                text-white md:w-[320px] px-[40px] pt-[75px] group-hover:text-primary "
+                >
                   lorem ipsum dolor sit amet consectetur adipiscing elit sed do
                   eiusmod.
                 </h4>
@@ -38,8 +42,12 @@ const Blog = () => {
                 backgroundSize: "cover",
               }}
             >
-              <div className="w-full h-full bg-darklight ">
-                <h4 className="font-pop font-bold text-[24px] text-white md:w-[320px] px-[44px] pt-[75px]	group-hover:text-primary">
+              <div className="w-full h-full bg-darklight sml:py-16 md:!py-0">
+                <h4
+                  className="font-pop font-bold 
+                text-[24px] md:!text-[24px] lap:text-[36px] 
+                text-white md:w-[320px] px-[44px] pt-[75px]	group-hover:text-primary"
+                >
                   lorem ipsum dolor sit amet consectetur adipiscing elit sed do
                   eiusmod.
                 </h4>
@@ -53,14 +61,18 @@ const Blog = () => {
             </div>
 
             <div
-              className="md:w-2/6 bg-primary group"
+              className="md:w-2/6 bg-primary group "
               style={{
                 background: "url(images/blogimg1.png) no-repeat center",
                 backgroundSize: "cover",
               }}
             >
-              <div className="w-full h-full bg-darklight">
-                <h4 className="font-pop font-bold text-[24px] text-white md:w-[320px] px-[44px] pt-[75px]	group-hover:text-primary">
+              <div className="w-full h-full bg-darklight sml:py-16 md:!py-0">
+                <h4
+                  className="font-pop font-bold 
+                text-[24px] md:!text-[24px] lap:text-[36px]
+                text-white md:w-[320px] px-[44px] pt-[75px]	group-hover:text-primary"
+                >
                   lorem ipsum dolor sit amet consectetur adipiscing elit sed do
                   eiusmod.
                 </h4>

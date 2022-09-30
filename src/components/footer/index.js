@@ -11,9 +11,9 @@ const Footer = () => {
   return (
     <section>
       <div style={{ background: "url(images/footerbg.png) " }}>
-        <div className="max-w-container mx-auto pt-[30px] md:pt-[143px] pb-[10px] md:pb-[185px] px-2.5 md:px-0 ">
-          <div className="md:flex">
-            <div className="md:w-2/5">
+        <div className="max-w-container mx-auto pt-[30px] md:pt-[143px] pb-[10px] md:pb-[185px] px-2.5 md:px-0 sml:py-14	">
+          <div className="md:flex tab:flex tab:justify-between">
+            <div className="md:w-2/5 ">
               <picture>
                 <img
                   className="mb-[20px] md:mb-[33px]"
@@ -53,8 +53,11 @@ const Footer = () => {
               </div>
             </div>
 
-            <div className="md:w-3/5 mt-[40px] flex flex-wrap md:flex md:justify-end">
-              <div className="md:w-1/3 mr-[100px] md:mr-0">
+            <div className="md:w-3/5 mt-[40px] flex flex-wrap     md:flex md:justify-end">
+              <div
+                className="md:w-1/3 mr-[50px] sml:mr-[50px] lap:mr-[120px] md:!mr-0 
+              tab:mr-[180px]"
+              >
                 <h5 className="font-pop font-bold text-base text-white mb-3 md:mb-[21px]">
                   Company
                 </h5>
@@ -66,7 +69,10 @@ const Footer = () => {
                 </ul>
               </div>
 
-              <div className="md:w-1/3">
+              <div
+                className="md:w-1/3 tab:ml-[-150px] lap:!ml-0 md:!ml-0 mr-[50px] md:!mr-0  sml:ml-[80px]
+              tab:mr-[60px] "
+              >
                 <h5 className="font-pop font-bold text-base text-white mb-3 md:mb-[21px]">
                   Others
                 </h5>
@@ -78,7 +84,7 @@ const Footer = () => {
                 </ul>
               </div>
 
-              <div className="md:w-1/3 flex justify-end mt-8 sml:mt-0 md:mt-0 pb-3 md:pb-0 sml:ml-20 md:!ml-0">
+              <div className="md:w-1/3 flex justify-end mt-8 sml:mt-0 md:mt-0 pb-3 md:pb-0 sml:ml-20 md:!ml-0 tab:ml-[-100px] lap:!ml-0 md:!ml-0 sml:ml-0">
                 <div>
                   <h5 className="font-pop font-bold text-base text-white mb-[10px] md:mb-[21px]">
                     Certificate
@@ -103,7 +109,7 @@ const Footer = () => {
         style={{ background: "url(images/footerbg2.png) " }}
       >
         <div className="max-w-container mx-auto py-3 md:py-10 px-2.5 md:px-0 flex justify-center md:justify-start">
-          <p className="font-pop font-medium text-[10px] md:text-base text-[#6C6C6C]">
+          <p className="font-pop font-medium text-[10px] tab:text-base text-[#6C6C6C] tab:py-4 md:!py-0">
             © Copyright 2022 by AltDesain Studio – All right reserved.
           </p>
         </div>
