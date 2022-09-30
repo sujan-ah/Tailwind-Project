@@ -11,10 +11,7 @@ const Header = () => {
       <div className="max-w-container mx-auto px-2.5 md:px-0">
         <div className="sml:flex">
           <div className="sml:w-9/12 sml:flex ">
-            <p
-              className="font-pop text-xs font-normal relative pl-6 text-white after:absolute after:top-[0] after:right-[-28px] after:w-0.5
-            after:h-full after:content-[''] after:bg-yellowborder"
-            >
+            <p className="font-pop text-xs font-normal relative pl-6 text-white after:absolute after:top-[0] md:after:right-[-28px] after:w-0.5 md:after:h-full after:content-[''] md:after:bg-yellowborder">
               <AiOutlineMail className="absolute left-0 top-0	text-lg " />
               mail@yourcompany.com
             </p>

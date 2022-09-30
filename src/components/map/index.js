@@ -9,11 +9,12 @@ const Map = () => {
       ></div>
 
       <nav className="bg-primary py-7 border-b-2 border-yellowborder">
-        <div className="max-w-container mx-auto flex">
-          <div className="w-4/5	font-pop font-bold text-[36px] text-white">
+        <div className="max-w-container mx-auto flex px-2.5 md:px-0">
+          <div className="md:w-4/5 	font-pop font-bold sml:text-[23px] md:text-[16px] md:text-[36px] text-white">
             <h3>Want to join as member branch in your area?</h3>
           </div>
-          <div className="w-1/5 flex items-center justify-end">
+
+          <div className="md:w-1/5 flex items-center justify-end">
             <a
               href="#"
               className="font-pop text-base	font-semibold text-white border py-3.5 px-3.5 mx-16 mr-0"

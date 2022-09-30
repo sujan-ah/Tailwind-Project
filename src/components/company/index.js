@@ -4,18 +4,19 @@ const Company = () => {
   return (
     <section>
       <div
-        className="h-124 pt-[136px] pb-[136px]"
+        className="md:h-124 py-[50px] md:p-[136px]"
         style={{ background: "url(images/backgroundcompany.png)" }}
       >
-        <div className="max-w-container mx-auto">
-          <div className="flex">
-            <div className="w-[413px] bg-primary">
-              <h4 className="font-pop font-bold text-[32px] text-white w-[362px] px-[77px] py-[100px]	">
+        <div className="max-w-container mx-auto px-2.5 md:px-0">
+          <div className="md:flex">
+            <div className="md:w-[413px] bg-primary">
+              <h4 className="font-pop font-bold text-[30px] sml:text-[32px] text-white md:w-[362px] px-[77px] py-[100px]	">
                 Learn more about our company
               </h4>
             </div>
+
             <div
-              className="w-[726px]  bg-yellowborder flex justify-center items-center"
+              className="md:w-[726px] h-[300px] md:h-auto  bg-yellowborder flex justify-center items-center"
               style={{ background: "url(images/companyimg.png)" }}
             >
               <a
@@ -29,11 +30,11 @@ const Company = () => {
         </div>
       </div>
 
-      <div className="max-w-container mx-auto">
-        <div className="flex gap-x-12 py-28	">
-          <img src="images/logo1.png" />
+      <div className="max-w-container mx-auto px-2.5 md:px-0">
+        <div className="sml:flex sml:flex-wrap md:!flex-nowrap gap-x-12 py-8 md:py-28">
+          <img className="ml-5 md:ml-0" src="images/logo1.png" />
           <img src="images/logo2.png" />
-          <img src="images/logo3.png" />
+          <img className="ml-5 md:ml-0" src="images/logo3.png" />
           <img src="images/logo4.png" />
         </div>
       </div>
