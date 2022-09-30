@@ -13,6 +13,7 @@ const Navbar = () => {
       setOpen(true);
     }
     function screenResize(e) {
+      console.log(window.innerWidth);
       if (window.innerWidth >= 768) {
         setOpen(true);
       } else {
@@ -24,7 +25,7 @@ const Navbar = () => {
 
   return (
     <nav className="bg-primary py-7	border-t-2 border-black relative">
-      <div className="max-w-container mx-auto md:flex px-1.5 md:px-0">
+      <div className="max-w-container mx-auto md:flex px-1.5 tab:px-2.5 md:!px-0">
         <div className="md:w-1/5">
           <picture>
             <img src="images/logo.png" loading="lazy" />

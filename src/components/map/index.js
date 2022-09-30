@@ -9,8 +9,8 @@ const Map = () => {
       ></div>
 
       <nav className="bg-primary py-7 border-b-2 border-yellowborder">
-        <div className="max-w-container mx-auto flex px-2.5 md:px-0">
-          <div className="md:w-4/5 	font-pop font-bold sml:text-[23px] md:text-[16px] md:text-[36px] text-white">
+        <div className="max-w-container mx-auto flex lap:flex lap:justify-between px-2.5 md:px-0">
+          <div className="md:w-4/5 font-pop font-bold sml:text-[23px] text-base	md:!text-4xl  tab:text-2xl lap:text-[34px]  text-white tab:mt-3">
             <h3>Want to join as member branch in your area?</h3>
           </div>
 
