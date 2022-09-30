@@ -30,6 +30,7 @@ const Navbar = () => {
             <img src="images/logo.png" loading="lazy" />
           </picture>
         </div>
+
         <button
           onClick={handleClick}
           className="block md:hidden absolute top-9 right-2.5 text-2xl text-white"

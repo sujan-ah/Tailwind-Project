@@ -22,7 +22,7 @@ export const Supplier = () => {
         </div>
       </div>
 
-      <div className="flex flex-col md:gap-y-5 md:gap-y-0 md:flex-row md:flex md:gap-x-7 mt-5 md:mt-24 px-2.5 md:px-0 sml:flex-row flex-wrap md:flex-nowrap ">
+      <div className="flex flex-col md:gap-y-5 md:gap-y-0 md:flex-row md:flex md:gap-x-7 mt-5 md:mt-24 px-2.5 md:px-0 sml:flex-row sml:flex-wrap md:!flex-nowrap ">
         <div className="sml:w-2/4 md:w-auto">
           <picture>
             <img className="w-full" src="images/supplier.png" loading="lazy" />
